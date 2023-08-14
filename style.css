@@ -1,7 +1,8 @@
 
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    /* background-color: #78cad2; */
+    
 }
 
 /* NAV BAR */
@@ -11,8 +12,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2rem;
-    color: black;
+    font-size: 2.5rem;
+    color: #454d66;
 }
 
 .left{
@@ -21,6 +22,7 @@ body{
     align-items: center;
     padding-left: 200px;
     width: 50%;
+    
 }
 
 .right{
@@ -29,12 +31,15 @@ body{
     align-items: center;
     width: 50%;
     padding-right: 200px;
+    font-size: 1.5rem;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #454d66;
 }
+
+/* Column-1 with picture and name */
 
 .col-1{
     display: flex;
@@ -44,7 +49,7 @@ a{
     margin-top: 250px;
 }
 
-.image{
+.col-1-image{
     display: flex;
     height: 400px;
     width: 400px;
@@ -54,7 +59,7 @@ img{
     border-radius: 50%;
 }
 
-.name{
+.col-1-name{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -62,13 +67,14 @@ img{
     align-items: center;
     column-gap: 1px;
     font-weight: 600;
+    color: #454d66;
     
 }
 
-.h1{
+.col-1-h1{
     font-size: 3rem;
 }
 
-.p2 {
+.col-1-p2 {
     font-size: 1.75rem;
 }
