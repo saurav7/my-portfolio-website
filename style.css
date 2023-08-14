@@ -39,6 +39,10 @@ a{
     color: #454d66;
 }
 
+href{
+    scroll-behavior: smooth;
+}
+
 /* Column-1 with picture and name */
 
 .col-1{
@@ -190,7 +194,7 @@ a{
     align-items: center;
     border: 3px solid #454d66;
     border-radius: 25px;
-    padding: 30px 100px;
+    padding: 30px 50px;
     gap: 3rem;
 }
 
