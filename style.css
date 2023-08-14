@@ -134,3 +134,75 @@ a{
 .col-2-image img{
     border-radius: 20px;
 } 
+
+/* Experience  */
+
+.col-3{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #454d66;
+}
+
+.col-3-h1{
+    font-weight: 600;
+}
+
+.col-3-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #454d66;
+    border-radius: 25px;
+    padding: 30px 100px 50px 100px;
+}
+
+.col-3-p1{
+    margin-bottom: auto;
+}
+
+/* Contact */
+
+.col-4{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #454d66;
+}
+
+.col-4-h1{
+    font-weight: 600;
+}
+
+.col-4-p1{
+    margin-bottom: auto;
+}
+
+.col-4-email-linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #454d66;
+    border-radius: 25px;
+    padding: 30px 100px;
+    gap: 3rem;
+}
+
+.col-4-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.col-4-linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
