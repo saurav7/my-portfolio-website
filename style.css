@@ -48,7 +48,7 @@ href{
 .col-1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;                    
     gap: 5rem;
     margin-top: 250px;
 }
